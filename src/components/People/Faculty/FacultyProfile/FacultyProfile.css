@@ -1,0 +1,199 @@
+.facultyProfile {
+    width: 100%;
+}
+
+.fp__container {
+    width: 100%;
+    padding: 2.5rem;
+    background: #FFFFFF;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.fp__header {
+    width: 100%;
+    display: flex;
+}
+
+.fp__header img {
+    border-radius: 5px;
+    width: 205px;
+    height: 204px;
+}
+
+.fp__header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 2rem;
+    font-family: var(--primary-font);
+    font-style: normal;
+}
+
+.fp__header_content h1 {
+    color: var(--primary-color);
+    font-size: 1.7rem;
+}
+
+.fp__header_content p {
+    color: var(--text-main);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fp__header_badge {
+    background: rgba(174, 145, 66, 0.8);
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-size: 1rem;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 0.5rem;
+}
+
+.fp__header_badge span {
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 0 5px 5px 0;
+    margin-left: 0.5rem;
+}
+
+.fp__content {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.fp__contentLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0.5;
+    gap: 1.5rem;
+}
+
+.fp_section {
+    width: 100%;
+}
+
+.fp_section h3 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+}
+
+.fp_section h3::after {
+    content: '';
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 90%;
+    height: 1px;
+    bottom: -5px;
+    left: 2px;
+    opacity: 0.5;
+}
+
+.fp_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+}
+
+.fp_div li {
+    color: var(--text-main);
+    font-family: var(--primary-font);
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.fp__contentRight {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.fp_links_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #DBE7F5;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 350px;
+    min-height: 150px;
+    gap: 1rem;
+    position: relative;
+    top: -20%;
+}
+
+.fp_links_div h3 {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+
+.fp_single_link {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--text-main);
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.fp_additional_link {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.fp-authed-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fp-authed-container button {
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fp-authed-container svg {
+    margin-right: 10px;
+}
+
+.fp-authed-edit-btn {
+    background-color: #05b923;
+    color: white;
+}
+
+.fp-authed-logout-btn {
+    background-color: #555555;
+    color: white;
+}
+
+.fp-authed-pass-btn {
+    background-color: #e77212;
+    color: white;
+}

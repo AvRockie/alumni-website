@@ -1,0 +1,47 @@
+.facultylogin-card {
+    width: 30%;
+    box-shadow: #b4b4b4 0px 5px 16px 1px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.facultylogin-form input {
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    background-color: #efefef;
+    border-radius: 15px;
+    margin: 10px 0px;
+    /* width: 120%; */
+}
+
+.facultylogin-btn {
+    outline: none;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: #0c2340;
+    color: white;
+    margin-top: 10px;
+}
+
+.disabled-btn {
+    background-color: #0c234070;
+}
+
+.facultylogin-form label {
+    position: relative;
+}
+
+.facultylogin-form label svg {
+    position: absolute;
+    top: 39%;
+    left: 5%;
+    color: #ae9142;
+}
+
+.facultylogin-card img {
+    width: 90%;
+    margin: auto;
+}

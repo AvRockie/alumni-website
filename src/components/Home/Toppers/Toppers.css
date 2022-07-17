@@ -1,0 +1,33 @@
+.toppers {
+    width: 100%;
+}
+
+.toppers__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.toppers_slider {
+    width: 100%;
+    padding: 2rem;
+    margin: auto;
+    margin-left: 2rem;
+}
+
+.topper_arrow_left, .topper_arrow_right {
+    position: absolute;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.topper_arrow_left {
+    left: 10px;
+}
+
+.topper_arrow_right {
+    right: 10px;
+}

@@ -1,0 +1,101 @@
+                            .homeHod {
+                                padding: 2rem 4rem;
+                                background-color: #0C2340;
+                            }
+                            
+                            .home_hod_section__container {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                gap: 3rem;
+                                grid-gap: 2rem;
+                                width: 100%;
+                                padding: 2rem;
+                                /* background-color: 0C2340; */
+                            }
+                            
+                            .homeAbout_section {
+                                display: flex;
+                                gap: 8rem;
+                            }
+                            
+                            .white_section__header {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 2rem;
+                                color: #ffffff;
+                            }
+                            
+                            .hod__left {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2rem;
+                            }
+                            
+                            .hod__p {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.1rem;
+                                color: rgba(255, 255, 255, 0.7);
+                            }
+                            
+                            .hod__left h3 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 1.3rem;
+                                text-align: right;
+                                color: #AE9142;
+                            }
+                            
+                            .hod__right {
+                                position: relative;
+                            }
+                            
+                            .hod_rectangle1 {
+                                position: absolute;
+                                width: 150px;
+                                height: 50px;
+                                background: #AE9142;
+                                opacity: 0.8;
+                                transform: rotate(45deg);
+                                top: 335px;
+                                left: -40px;
+                            }
+                            
+                            .hod_rectangle2 {
+                                position: absolute;
+                                width: 150px;
+                                height: 50px;
+                                background: #AE9142;
+                                opacity: 0.8;
+                                transform: rotate(45deg);
+                                top: 15px;
+                                right: -40px;
+                            }
+                            
+                            .homehod__img {
+                                height: 400px;
+                            }
+                            
+                            .button_readmore {
+                                font-weight: bold;
+                                padding: 0.5rem 1rem;
+                                color: #0C2340;
+                                width: 40%;
+                                background-color: #ffffff;
+                                border: 5px solid transparent;
+                                transition: .2s ease;
+                                border-radius: 50px;
+                                font-size: 1rem;
+                                margin-right: 0.5em;
+                            }
+                            
+                            .button_readmore:hover {
+                                color: #ffffff;
+                                background-color: #0C2340;
+                                transform: scale(1.1);
+                                border: 2px solid #ffffff;
+                            }

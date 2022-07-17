@@ -1,0 +1,14 @@
+.page_header {
+    height: 400px;
+    position: relative;
+    top: -30px;
+    margin-bottom: -30px;
+}
+
+.page_header img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    opacity: 1;
+    pointer-events: none;
+}

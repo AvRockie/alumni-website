@@ -1,0 +1,15 @@
+.pos {
+    display: flex;
+}
+
+.pos_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.pos_div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;   
+}

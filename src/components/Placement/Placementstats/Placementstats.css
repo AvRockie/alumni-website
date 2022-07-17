@@ -1,0 +1,105 @@
+.placementstats {
+    display: flex;
+    width: 100%;
+}
+
+.section_slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(174, 145, 66, 0.5);
+}
+
+.section_slider h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.slider_btn {
+    cursor: pointer;
+    font-size: 2.2rem;
+    color: var(--secondary-color);
+}
+
+.placement__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.placementCard_header {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 0 1rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.placementCard_header h3:nth-child(1) {
+    width: 33%;
+    text-align: left;
+}
+.placementCard_header h3:nth-child(2) {
+    width: 33%;
+    text-align: center;
+}
+.placementCard_header h3:nth-child(3) {
+    width: 33%;
+    text-align: center;
+}
+
+.placementCard {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: -6.77143px -6.77143px 13.5429px rgba(0, 0, 0, 0.05), 6.77143px 6.77143px 13.5429px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    height: 60px;
+    padding: 0 1.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 37px;
+    color: var(--primary-color);
+}
+
+.placementCard h3:nth-child(1) {
+    width: 33%;
+    text-align: left;
+}
+
+.placementCard__logo {
+    height: 80%;
+    width: 33%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placementCard__logo img {
+    height: 80%;
+}
+
+.placementCard h3:nth-child(3) {
+    width: 33%;
+    text-align: center;
+}

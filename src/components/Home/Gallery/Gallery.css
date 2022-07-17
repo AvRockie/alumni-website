@@ -1,0 +1,24 @@
+.gallery {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: var(--secondary-color);
+}
+
+.gallery__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.gallery_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.95rem;
+    color: var(--primary-color);
+    text-align: center;
+}

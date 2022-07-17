@@ -1,0 +1,4 @@
+.activitiesPage {
+    display: flex;
+    flex-direction: column;
+}

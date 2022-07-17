@@ -1,0 +1,158 @@
+.fpu-main-container {
+    padding: 2rem 4rem;
+    gap: 2rem;
+    grid-gap: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.fpu-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+}
+
+.fpu-card {
+    box-shadow: -6.77143px -6.77143px 13.5429px rgb(0 0 0 / 5%), 6.77143px 6.77143px 13.5429px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 1.75rem;
+    margin: 10px 10px;
+}
+
+.fpu-card h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.fpu-personal-card div {
+    margin: 12px 0px;
+}
+
+.fpu-personal-card input,
+.fpu-personal-card select {
+    padding: 8px;
+    border: none;
+    border: 1px solid #ae9142;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.fpu-personal-card label {
+    color: #0202029d;
+    margin-right: 10px;
+}
+
+.fpu-personal-card img {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.fpu-personal-card-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fpu-personal-card-img-col2 {
+    width: 70%;
+    color: #0202029d;
+}
+
+#file {
+    border: none;
+    padding: 10px 0px;
+}
+
+.fpu-col2 {
+    width: 80%;
+}
+
+
+.fpu-academic-row1 {
+    display: flex;
+}
+
+.fpu-academic-row1-col,
+.fpu-academic-row2-col {
+    margin: 0px 20px;
+}
+
+.fpu-academic-row1-col h4,
+.fpu-academic-row2-col h4 {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #0202029d;
+    font-weight: normal;
+}
+
+.fpu-academic-row2-col h4 {
+    margin-top: 30px;
+}
+
+.fpu-academic-row1-col input,
+.fpu-academic-row2-col input {
+    border: none;
+    border: 1px solid #ae9142;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px 0px;
+
+}
+
+.fpu-academic-row1-col {
+    width: 50%;
+}
+
+.fpu-academic-sub-row {
+    display: flex;
+}
+
+.fpu-academic-sub-row-col1 {
+    width: 90%;
+}
+
+
+.fpu-academic-sub-row-col1 input {
+    width: 100%;
+    padding-right: 25px;
+}
+
+.fpu-academic-sub-row-col2 button {
+    background-color: #ff8080;
+    padding: 3px;
+    font-size: 10px;
+    margin: 5px;
+    margin-left: -18px;
+    margin-top: 8px;
+    border-radius: 50%;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fpu-add-btn {
+    padding: 6px 12px;
+    /* width: 60px; */
+    border-radius: 5px;
+    border: none;
+    background-color: #ae9142;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.fpu-submit-btn {
+    background-color: #05b923;
+    color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+}

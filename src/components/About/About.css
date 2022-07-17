@@ -1,0 +1,76 @@
+.about {
+    display: flex;
+}
+
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 4rem;
+    gap: 2rem;
+    grid-gap: 2rem;
+    width: 100%;
+}
+
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    grid-gap: 1rem;
+}
+
+.section__header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.95rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.section__header::before {
+    content:'';
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 5px;
+    height: 95%;
+    bottom: 0;
+    left: -15px; 
+}
+
+.about__p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 140%;
+    color: var(--text-main);
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.about_mission_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    grid-gap: 1rem;
+}
+
+.about_mission {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    grid-gap: 0.5rem;
+}

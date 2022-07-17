@@ -1,0 +1,76 @@
+.homePlacement {
+    width: 100%;
+}
+
+.homePlace__slider {
+    width: 100%;
+    padding: 2rem;
+}
+
+.homePlacementCard {
+    display: flex;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.placementCard_content {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.pcc_top {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.pcc_bottom {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.plcmnt_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: var(--text-main);
+    gap: 0.25rem;
+}
+
+.plcmnt_info p {
+    font-weight: 500;
+    font-size: 1rem;   
+}
+.plcmnt_info h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.placementCard_img {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pci_div {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: -6.77143px -6.77143px 13.5429px rgba(0, 0, 0, 0.05), 6.77143px 6.77143px 13.5429px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 250px;
+}
+
+.pci_div img {
+    width: 150px;
+    cursor: pointer;
+}

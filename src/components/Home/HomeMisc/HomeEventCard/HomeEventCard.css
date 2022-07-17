@@ -1,0 +1,30 @@
+.homeEventCard {
+    background: #FFFFFF;
+    box-shadow: -6.77143px -6.77143px 13.5429px rgba(0, 0, 0, 0.05), 6.77143px 6.77143px 13.5429px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    width: 80%;
+    margin: 1.25rem auto;
+}
+
+.homeEventCard__title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.35rem;
+    color: #555555;
+    white-space: nowrap;
+}
+
+.homeEventCard__desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #555555;
+
+}

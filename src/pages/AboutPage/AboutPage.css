@@ -1,0 +1,9 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.page__section {
+    display: flex;
+}
+

@@ -1,0 +1,71 @@
+.homeAbout {
+
+}
+
+.homeAbout_section {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.hac__left, .hac__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.hac__left {
+    flex: 0.6;
+}
+
+.hac__right {
+    flex: 0.4;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.homeAbout__img_outline {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border: 4px solid var(--secondary-color);
+    transform: translate(-25px, -25px);
+    opacity: 0.6;
+}
+
+.hac__right h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.homeAbout__img {
+    width: 280px;
+    height: 280px;
+    /* border-radius: 100%; */
+}
+
+.homeAbout_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.homeAbout_button button {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 1rem;
+    border-radius: 10px;
+}

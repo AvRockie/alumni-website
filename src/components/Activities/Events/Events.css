@@ -1,0 +1,140 @@
+.events {
+    display: flex;
+}
+
+.events__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.eventCard {
+    background: #FFFFFF;
+    box-shadow: -6.77143px -6.77143px 13.5429px rgba(0, 0, 0, 0.05), 6.77143px 6.77143px 13.5429px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    width: 48%;
+    margin-top: 1.25rem;
+}
+
+.event_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.3;
+    flex-shrink: 0;
+}
+
+.event_img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.event_details {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.5rem;
+    flex: 0.7;
+    gap: 0.5rem;
+
+}
+.event_title {
+    width: 100%;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 0.5rem; */
+    
+}
+
+.event_title h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #555555;
+}
+
+.event_details h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.35rem;
+    color: #555555;
+    /* padding-bottom: 1rem; */
+
+}
+
+.share_icon {
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: #0C2340;
+}
+
+.event_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.event__content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #AE9142;
+    justify-content: space-between;
+}
+.event_info h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.event_info_icon {
+    font-size: 1.45rem;
+    flex-shrink: 0;
+}
+
+.event_btn {
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: #0C2340;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    outline: none;
+    cursor: pointer;
+    width: 76px;
+
+}
+
+.det_btn {
+    border: 2px solid #0C2340;
+}
+
+.reg_btn {
+    background: #0C2340;
+    color: #FFFFFF;
+    border: 2px solid #0C2340;
+    text-decoration: none;
+}
+
+.reg_btn a {
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+
+/* .event_btn:hover {
+    background: #0C2340;
+    color: #FFFFFF;
+} */
+

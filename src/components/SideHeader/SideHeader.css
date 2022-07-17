@@ -1,0 +1,22 @@
+.sideHeader {
+    padding: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 5%;
+    border-right: 2px solid rgba(174, 145, 66, 0.4);
+}
+
+.sideHeader h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    opacity: 0.7;
+    transform: rotate(-90deg);
+    position: sticky;
+    top: 55%;
+    padding-right: 4rem;
+    white-space: nowrap;
+}

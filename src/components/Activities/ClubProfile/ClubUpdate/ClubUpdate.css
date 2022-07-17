@@ -1,0 +1,159 @@
+.cpu-main-container {
+    padding: 2rem 4rem;
+    gap: 2rem;
+    grid-gap: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cpu-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+}
+
+.cpu-card {
+    box-shadow: -6.77143px -6.77143px 13.5429px rgb(0 0 0 / 5%), 6.77143px 6.77143px 13.5429px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 1.75rem;
+    margin: 10px 10px;
+}
+
+.cpu-card h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.cpu-card h3 {
+    margin: 30px 0px;
+}
+
+.cpu-personal-card div,
+.cpu-team-card div {
+    margin: 12px 0px;
+}
+
+.cpu-personal-card input,
+.cpu-personal-card textarea,
+.cpu-team-card input {
+    padding: 8px;
+    border: none;
+    border: 1px solid #ae9142;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.cpu-personal-card label,
+.cpu-team-card label {
+    color: #0202029d;
+    margin-right: 10px;
+}
+
+.cpu-personal-card img {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.cpu-personal-card textarea {
+    min-height: 180px;
+    min-width: 95%;
+}
+
+.cpu-personal-card-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cpu-personal-card-img-col2 {
+    width: 70%;
+    color: #0202029d;
+}
+
+#file {
+    border: none;
+    padding: 10px 0px;
+}
+
+.cpu-col1 {
+    width: 36%;
+}
+
+.cpu-col2 {
+    width: 44%;
+}
+
+.cpu-sub-row {
+    display: flex;
+}
+
+.cpu-sub-row div {
+    margin: 2px 5px;
+}
+
+.cpu-sub-row button {
+    margin-top: 86%;
+    outline: none;
+    border: none;
+    background: white;
+    font-size: 20px;
+    color: #ff8080;
+    cursor: pointer;
+}
+
+.cpu-add-btn {
+    padding: 6px 12px;
+    /* width: 60px; */
+    margin: 0px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ae9142;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.cpu-sm-sub-row {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.cpu-sm-sub-row input,
+.cpu-sm-sub-row select {
+    padding: 8px;
+    border: none;
+    border: 1px solid #ae9142;
+    border-radius: 5px;
+    font-size: 11px;
+    margin: 3px 0px;
+}
+
+.cpu-sm-sub-row label {
+    color: #0202029d;
+    margin-right: 10px;
+}
+
+.cpu-sm-sub-row button {
+    margin-top: 15%;
+    outline: none;
+    border: none;
+    background: white;
+    font-size: 20px;
+    color: #ff8080;
+    cursor: pointer;
+}
+
+.fpu-submit-btn {
+    background-color: #05b923;
+    color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}

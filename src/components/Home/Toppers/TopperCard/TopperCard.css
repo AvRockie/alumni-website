@@ -1,0 +1,48 @@
+.topperCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    background: #FFFFFF;
+    box-shadow: -6.77143px -6.77143px 13.5429px rgba(0, 0, 0, 0.05), 6.77143px 6.77143px 13.5429px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    gap: 0.15rem;
+    width: 240px;
+    margin: 1.5rem;
+    transition: ease-in 0.2s;
+}
+
+.topperCard:hover {
+    transform: scale(1.05);
+}
+
+.topperCard_img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: fill;
+    margin: 0 auto 10px;
+}
+
+.topperCard h1 {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--primary-color);
+}
+
+.topperCard h3 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.topperCard h4 {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--text-main);
+}
