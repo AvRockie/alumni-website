@@ -1,7 +1,9 @@
 import React from 'react'
+import newsData from '../../data/newsData'
+import chapterData from '../../data/chapterData'
+
 
 import Newsroom from "../../components/Home/NewsRoom/Newsroom"
-import Chapters from "../../components/Home/Chapters/Chapters"
 import Events from "../../components/Home/Events/Events"
 import { ImageSlider, HomeStats, HomeAbout, HomeHod, HomeMisc, Toppers, HomePlacement, Testimonials, Gallery } from '../../components'
 import HomeFacilities from '../../components/Home/HomeFacilities/HomeFacilities'
@@ -17,9 +19,9 @@ function LandingPage() {
       <div className='page__section'>
         <div className='section__column'>
             <HomeAbout />
-            <Newsroom />
+            <Newsroom img={newsData.img} title={newsData.title} desc={newsData.desc} header={newsData.header}/>
             <Events />
-            <Chapters />
+            <Newsroom img={chapterData.img} title={chapterData.title} desc={chapterData.desc} header={chapterData.header}/>
             <Gallery />
         </div>
       </div>

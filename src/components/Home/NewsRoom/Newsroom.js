@@ -4,7 +4,7 @@ import './Newsroom.css'
 export default function NewsRoom(props){
     return(
         <div className="news_container">
-            <h1>Newsroom</h1>
+            <h1>{props.header}</h1>
             <div className="news_topic">
                 <img className="news_image" src={props.img} alt="img"></img>
                 <div className="news_content">
@@ -14,4 +14,5 @@ export default function NewsRoom(props){
             </div>
         </div>
     )
+
 }

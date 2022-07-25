@@ -10,7 +10,7 @@ function About() {
     <div className='about'>
         <div className='section__container'>
             <div className='section'>
-                <h1 className='section__header'>Our Aim</h1>
+                <h1 className='section__header'>About MEC</h1>
                 <p className='about__p'>
                     {aboutData.aim}
                  
