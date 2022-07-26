@@ -1,6 +1,6 @@
 .news_container {
     font-family: 'Montserrat';
-    background-color: #0C2340;
+    background-color: var(--primary-color);
     color: #FFFFFF;
     padding: 1em 3em;
     align-items: center;

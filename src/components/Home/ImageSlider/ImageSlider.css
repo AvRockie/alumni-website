@@ -16,7 +16,7 @@
 }
 
 .imageSlider__prev:hover, .imageSlider__next:hover {
-    color: #0c2340;
+    color: var(--primary-color);
 }
 
 .imageSlider__prev {
