@@ -24,7 +24,6 @@ function LandingPage() {
             <Events />
             <Newsroom img={chapterData.img} title={chapterData.title} desc={chapterData.desc} header={chapterData.header}/>
             <Gallery />
-            <Card />
         </div>
       </div>
     </div>

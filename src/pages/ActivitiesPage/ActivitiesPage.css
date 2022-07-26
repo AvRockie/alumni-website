@@ -1,4 +1,8 @@
-.activitiesPage {
-    display: flex;
-    flex-direction: column;
-}
+    .activitiesPage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .engage_body {
+        width: 95%;
+    }
