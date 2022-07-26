@@ -2,19 +2,18 @@ import './Card.css';
 import React from 'react';
 
 
-export default function Card(){
+export default function Card(props){
     return(
-    <div className="newscard_container">
-        <div className="card_img">
-            <img className="img" src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80"></img>
-            
-        </div>
-        <div className="card_news">
-            <h1>Title Newslllllll</h1>
-            <div>Lorem ipsum dolor sit</div>
-
-        </div>
-    </div>
+              
+            <div className="info_topic">
+                <img className="info_image" src={props.img} alt="img"></img>
+                <div className="info_content">
+                    <span className="info_title">{props.title}</span>
+                    <p className="info_description">{props.desc}</p>
+                </div>
+            </div>
+       
+    
     )
 
 }

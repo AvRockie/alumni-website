@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react'
-
-import { SideHeader, PageHeader, Pos, Courses, Syllabus } from '../../components'
+import Card from '../../components/Academics/Card'
+import newsData from '../../data/newsData'
+import { SideHeader, PageHeader, Pos, Courses, Syllabus } from '../../components/'
 import CustomTitle from '../../utils/CustomTitle'
 
 import { TabContext } from '../../contexts/TabContext'
@@ -36,8 +37,13 @@ function AcademicsPage() {
         <SideHeader title="Newsroom"/>
         <div className='section__column'>
           <div className='news_body'>
-            
-          </div>
+
+            <Card {...newsData}/>
+            <Card {...newsData} />
+            <Card  {...newsData}/>
+            <Card  {...newsData}/>
+            <Card  {...newsData}/>
+            </div>
           
         </div>
       </div>
