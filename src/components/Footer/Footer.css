@@ -7,7 +7,7 @@
 
 .footer_top {
     display: flex;
-    background: #0C2340;
+    background: var(--primary-color);
     height: 5rem;
     align-items: center;
     padding: 2rem;
@@ -57,7 +57,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.3rem;
-    color: #0C2340;
+    color: var(--primary-color);
 }
 
 .footer_contact p {
@@ -65,7 +65,9 @@
     font-style: normal;
     font-weight: 500;
     font-size: 0.9rem;
-    color: #0C2340;
+
+    color: var(--primary-color);
+
 }
 
 .footer_logo {

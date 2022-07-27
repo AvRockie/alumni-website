@@ -60,7 +60,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.7rem;
-    color: #AE9142;
+    color: var(--secondary--color);
 
 }
 
@@ -100,7 +100,7 @@
     font-weight: 700;
     font-size: 1.1rem;
     text-align: center;
-    color: #0C2340;
+    color: var(--primary-color);
     outline: none;
     border: none;
     white-space: nowrap;

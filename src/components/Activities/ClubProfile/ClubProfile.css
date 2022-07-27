@@ -49,14 +49,14 @@
 .cph__right h1 {
     font-weight: 700;
     font-size: 1.75rem;
-    color: #0C2340;
+    color: var(--primary-color);
 }
 
 .cph__right p {
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 24px;
-    color: #555555;
+    color: var(--text-main);
     width: 90%;
 }
 
@@ -100,7 +100,7 @@
 .cpc__left_links a {
     font-weight: 400;
     font-size: 1rem;
-    color: #555555;
+    color: var(--text-main);
     text-decoration: none;
 }
 
@@ -116,7 +116,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #555555;
+    background-color: var(--text-main);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -147,7 +147,7 @@
     display: flex;
     align-items: flex-start;
     gap: 1.75rem;
-    border-bottom: 1px solid #AE9142;
+    border-bottom: 1px solid var(--secondary--color);
 }
 
 .cpc__right_header h6 {
@@ -155,7 +155,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 1rem;
-    color: #0C2340;
+    color:var(--primary-color);
     cursor: pointer;
 }
 
@@ -184,7 +184,7 @@
 }
 
 .clubprofile-authed-logout-btn {
-    background-color: #555555;
+    background-color: var(--text-main);
     color: white;
 }
 

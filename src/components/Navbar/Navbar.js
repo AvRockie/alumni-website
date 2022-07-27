@@ -137,7 +137,7 @@ function Navbar() {
               to={`/${nav.route}`} 
               className='nav__link'
               style={({ isActive }) => ({
-                color: isActive ? '#AE9142' : 'rgba(0,0,0)',
+                color: isActive ? 'var(--secondary-color)' : 'rgba(0,0,0)',
                 fontWeight: isActive ? '800' : '600',
               })}
             >

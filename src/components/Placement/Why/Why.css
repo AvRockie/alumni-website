@@ -25,12 +25,12 @@
 .singleStat h1 {
     font-weight: 500;
     font-size: 2.15rem;
-    color: #AE9142;
+    color: var(--secondary--color);
 }
 
 .singleStat p {
     font-weight: 500;
     font-size: 0.95rem;
     text-align: center;
-    color: #555555; 
+    color: var(--text-main); 
 }

@@ -1,6 +1,6 @@
 .homeHod {
     padding: 2rem 4rem;
-    background-color: #0C2340;
+    background-color: var(--primary-color);
 }
 
 .home_hod_section__container {
@@ -11,7 +11,7 @@
     grid-gap: 2rem;
     width: 100%;
     padding: 2rem;
-    /* background-color: 0C2340; */
+    /* background-color:var(--primary-color); */
 
 }
 
@@ -48,7 +48,7 @@
     font-weight: 600;
     font-size: 1.3rem;
     text-align: right;
-    color: #AE9142;
+    color: var(--secondary--color);
 
 }
 
@@ -60,7 +60,7 @@
     position: absolute;
     width: 150px;
     height: 50px;
-    background: #AE9142;
+    background: var(--secondary-color);
     opacity: 0.8;
     transform: rotate(45deg);
     top: 335px;
@@ -72,7 +72,7 @@
     position: absolute;
     width: 150px;
     height: 50px;
-    background: #AE9142;
+    background: var(--secondary--color);
     opacity: 0.8;
     transform: rotate(45deg);
     top: 15px;

@@ -58,7 +58,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.75rem;
-    color: #555555;
+    color:var(--text-main);
 }
 
 .event_details h3 {
@@ -66,7 +66,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 1.35rem;
-    color: #555555;
+    color: var(--text-main);
     /* padding-bottom: 1rem; */
 
 }
@@ -74,7 +74,7 @@
 .share_icon {
     font-size: 1.75rem;
     cursor: pointer;
-    color: #0C2340;
+    color: var(--primary-color);
 }
 
 .event_info {
@@ -87,7 +87,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #AE9142;
+    color: var(--secondary-color);
     justify-content: space-between;
 }
 .event_info h3 {
@@ -95,7 +95,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 0.9rem;
-    color: #555555;
+    color: var(--text-main);
 }
 
 .event_info_icon {
@@ -106,7 +106,7 @@
 .event_btn {
     border-radius: 10px;
     padding: 0.5rem;
-    color: #0C2340;
+    color: var(--primary-color);
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -118,13 +118,13 @@
 }
 
 .det_btn {
-    border: 2px solid #0C2340;
+    border: 2px solid var(--primary-color);
 }
 
 .reg_btn {
-    background: #0C2340;
+    background: var(--primary-color);
     color: #FFFFFF;
-    border: 2px solid #0C2340;
+    border: 2px solid var(--primary-color);
     text-decoration: none;
 }
 
@@ -134,7 +134,7 @@
 }
 
 /* .event_btn:hover {
-    background: #0C2340;
+    background:var(--primary-color);
     color: #FFFFFF;
 } */
 
