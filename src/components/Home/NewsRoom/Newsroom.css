@@ -19,12 +19,21 @@
     width: 95%;
     display: flex;
     gap: 1.5em;
-}
+    }
 
 .news_image {
     margin: 20px;
     max-width: 300px;
     max-height: 300px;
+}
+
+.news_date{
+ flex-direction: column;
+ margin-left:auto;
+ margin-right:0;
+ font-size: small;
+
+
 }
 
 .news_content {
@@ -37,6 +46,7 @@
 .news_title {
     font-size: 2rem;
     font-weight: bold;
+    display: flex;
 }
 
 .news_description {

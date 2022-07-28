@@ -15,11 +15,11 @@ function LandingPage() {
   return (
     <div className='landingPage'>
       <CustomTitle title="MEC CS"/>
-      <ImageSlider />z
+      <ImageSlider/>
       <div className='page__section'>
         <div className='section__column'>
             <HomeAbout />
-            <Newsroom img={newsData.img} title={newsData.title} desc={newsData.desc} header={newsData.header}/>
+            <Newsroom img={newsData.img} title={newsData.title} desc={newsData.desc} header={newsData.header} date={newsData.date}/>
             <Events />
             <Newsroom img={chapterData.img} title={chapterData.title} desc={chapterData.desc} header={chapterData.header}/>
             <Gallery />
