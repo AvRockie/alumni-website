@@ -27,7 +27,7 @@
 .clubTeam__card img {
     width: 105px;
     height: 105px;
-    border: 0.5px solid #AE9142;
+    border: 0.5px solid var(--secondary-color);
     border-radius: 100%;
 }
 
@@ -42,13 +42,13 @@
 .clubTeam__card_content h1 {
     font-weight: 500;
     font-size: 1.25rem;
-    color: #555555;
+    color: var(--text-main);
 }
 
 .clubTeam__card_content p {
     font-weight: 400;
     font-size: 1rem;
-    color: #555555;
+    color: var(--text-main);
 }
 
 .clubCard_email {
@@ -62,7 +62,7 @@
 .clubCard_email a {
     font-weight: 400;
     font-size: 0.8rem;
-    color: #AE9142;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 0.8rem;
-    color: #0C2340;
+    color: var(--primary-color);
     width: 40%;
     gap: 3rem;
 

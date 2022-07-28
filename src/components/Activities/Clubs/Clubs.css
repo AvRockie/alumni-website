@@ -46,7 +46,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
-    color: #2A2A53;
+    color: var(--primary-color);
 }
 .club_content p {
     font-family: 'Montserrat';

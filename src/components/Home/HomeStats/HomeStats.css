@@ -24,7 +24,7 @@
 .homeStat h1 {
     font-weight: 500;
     font-size: 2.15rem;
-    color: #AE9142;
+    color: var(--secondary--color);
 }
 
 .homeStat p {

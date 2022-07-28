@@ -1,0 +1,32 @@
+.info_topic {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 1em;
+    color: black;
+    width: 100%;
+    display: flex;
+    gap: 1.5em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.info_image {
+    margin: 20px;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.info_content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info_description {
+    font-size: 1.2rem;
+}

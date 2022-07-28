@@ -22,7 +22,7 @@
 }
 
 .hod_content h1 {
-  color: #0C2340;
+  color: var(--primary-color);
   font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -34,7 +34,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.3rem;
-    color: #555555;
+    color: var(--text-main);
 }
 
 .hod_item {
@@ -49,14 +49,14 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #AE9142;
+    color: var(--secondary--color);
 }
 .hod_item p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 1.15rem;
-    color: #555555;
+    color: var(--text-main);
   
 }
 

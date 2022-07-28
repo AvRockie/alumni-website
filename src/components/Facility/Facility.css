@@ -22,11 +22,11 @@
 .facilityCard h1 {
     font-weight: 700;
     font-size: 1.5rem;
-    color: #AE9142;
+    color: var(--secondary--color);
 }
 
 .facilityCard p {
     font-weight: 500;
     font-size: 1.05rem;
-    color: #555555;
+    color: var(--text-main);
 }
