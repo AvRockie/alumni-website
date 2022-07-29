@@ -15,14 +15,14 @@ import './LandingPage.css'
 function LandingPage() {
   return (
     <div className='landingPage'>
-      <CustomTitle title="MEC CS"/>
+      <CustomTitle title="MEC Alumni"/>
       <ImageSlider />z
       <div className='page__section'>
         <div className='section__column'>
             <HomeAbout />
-            <Newsroom img={newsData.img} title={newsData.title} desc={newsData.desc} header={newsData.header}/>
+            <Newsroom {...newsData[0]}/>
             <Events />
-            <Newsroom img={chapterData.img} title={chapterData.title} desc={chapterData.desc} header={chapterData.header}/>
+            <Newsroom {...chapterData[0]}/>
             <Gallery />
         </div>
       </div>

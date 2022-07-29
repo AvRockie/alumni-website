@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 import { TabContext } from '../../contexts/TabContext'
 
@@ -20,90 +20,27 @@ const navItems = [
   {
     route: 'academics',
     name: 'Newsroom',
-    /* dropdown: [
-      {
-        tab: 1,
-        name: 'POs',
-      },
-      {
-        tab: 2,
-        name: 'Courses Offered',
-      },
-      {
-        tab: 3,
-        name: 'Syllabus',
-      },
-    ] */
+    
   },
   {
     route: 'people',
     name: 'Events',
-    /* dropdown: [
-      {
-        tab: 1,
-        name: 'Head of Department',
-      },
-      {
-        tab: 2,
-        name: 'Faculty',
-      },
-      {
-        tab: 3,
-        name: 'Students',
-      },
-      {
-        tab: 4,
-        name: 'Alumni',
-      },
-    ] */
+    
   },
   {
     route: 'placements',
     name: 'Chapters',
-    /* dropdown: [
-      {
-        tab: 1,
-        name: 'Why MEC?',
-      },
-      {
-        tab: 2,
-        name: 'Placement Statistics',
-      },
-      {
-        tab: 3,
-        name: 'Internship Statistics',
-      }
-    ] */
+   
   },
   {
     route: 'facilities',
     name: 'Gallery',
   },
-  // {
-  //   route: 'resources',
-  //   name: 'Resources',
-  // },
+ 
   {
     route: 'activities',
     name: 'Engage',
-    /* dropdown: [
-      {
-        tab: 1,
-        name: 'Achievements',
-      },
-      {
-        tab: 2,
-        name: 'Student Clubs',
-      },
-      {
-        tab: 3,
-        name: 'Projects',
-      },
-      {
-        tab: 4,
-        name: 'Events',
-      }
-    ] */
+  
   },
   {
     route: 'contact',
@@ -115,6 +52,8 @@ function Navbar() {
 
   const { updateDropdownTab } = useContext(TabContext);
 
+  let navigate = useNavigate()
+
   return (
     <div className='navbar'>
       <div className='navbar__header'>
@@ -125,8 +64,8 @@ function Navbar() {
           </div>
           <div className="nav_title"> Govt. Model Engineering College<div className='secondary'>Alumni Association</div></div>
           <div className="nav_buttons">
-            <button className='button_login'>Login</button>
-            <button className='button_reg'>Register</button>
+            <button onClick={() => navigate('/admin-login')} className='button_login'>Login</button>
+            <button onClick={() => navigate('/admin-register')} className='button_reg'>Register</button>
           </div>
         </div>
       </div>

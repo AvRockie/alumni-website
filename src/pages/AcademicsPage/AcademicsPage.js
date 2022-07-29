@@ -9,40 +9,27 @@ import './AcademicsPage.css'
 
 function AcademicsPage() {
 
-  /* const { dropdownTab } = useContext(TabContext);
-  const [tab, setTab] = useState(dropdownTab)
 
-  const selectedTab = () => {
-    if(tab === 1)
-      return <Pos />
-    else if(tab === 2)
-      return <Courses />
-    else if(tab === 3)
-      return <Syllabus />
-
-  }
-
-  useEffect(() => {
-    setTab(dropdownTab)
-  }, [dropdownTab]) */
   
-
-  // console.log(tab)
 
   return (
     <div className='academicsPage'>
-      <CustomTitle title="MEC CS | Academics"/>
+      <CustomTitle title="MEC Alumni | Newsroom"/>
       <PageHeader image="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"/>
       <div className='page__section'>
         <SideHeader title="Newsroom"/>
         <div className='section__column'>
           <div className='news_body'>
-
-            <Card {...newsData}/>
-            <Card {...newsData} />
-            <Card  {...newsData}/>
-            <Card  {...newsData}/>
-            <Card  {...newsData}/>
+            {
+              newsData.map((nd) => (
+                <Card
+                  key={nd.id}
+                  img={nd.img} 
+                  title={nd.title} 
+                  desc={nd.desc}
+                />
+            ))
+            }
             </div>
           
         </div>

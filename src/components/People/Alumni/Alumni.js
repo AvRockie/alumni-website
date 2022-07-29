@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import './Alumni.css'
 
 function Alumni() {
@@ -13,4 +13,4 @@ function Alumni() {
   )
 }
 
-export default Alumni
+export default Alumni */
