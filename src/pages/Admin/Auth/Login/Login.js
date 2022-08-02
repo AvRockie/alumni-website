@@ -1,10 +1,17 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import { BsEye, BsEyeSlash } from 'react-icons/bs'
+import './Login.css'
 
 const Login = () => {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [showPass, setShowPass] = useState(false)
+
+    const toggleShowPass = () => {
+        setShowPass(!showPass)
+    }
 
     const submitHandler = (e) => {
         e.preventDefault();
@@ -30,17 +37,19 @@ const Login = () => {
     }
 
     return (
-        <div>
-            <h3>Login</h3>
-            <form onSubmit={submitHandler}>
-                <label>
-                    <input type="email" placeholder='email' value={email} onChange={e => setEmail(e.target.value)} />
-                </label>
-                <label>
-                    <input type="password" placeholder='password' value={password} onChange={e => setPassword(e.target.value)} />
-                </label>
-                <button type="submit">Login</button>
-            </form>
+        <div className="admin_container">
+            <h2>Login</h2>
+            <form onSubmit={submitHandler} className="admin_form_container">
+                        <div className='admin_input_container'>
+                            <label className='admin_label'>Email</label>
+                            <input className='admin_input' type="email" placeholder='example@gmail.com' value={email} onChange={e => setEmail(e.target.value)} />
+                        </div>
+                        <div className='admin_input_container'>
+                            <label className='admin_label'>Password</label>
+                            <input className='admin_input' type={showPass ? 'text' : 'password'} placeholder="***" value={password} onChange={e => setPassword(e.target.value)} />
+                            {showPass ? <BsEye className='admin_input_eye' onClick={toggleShowPass}/> : <BsEyeSlash className='admin_input_eye' onClick={toggleShowPass}/>}
+                        </div>
+                        <button className='admin_button_login'>Login</button>                    </form>
         </div>
     )
 }

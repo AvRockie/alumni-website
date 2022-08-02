@@ -1,6 +1,7 @@
 import React from 'react'
 import newsData from '../../data/newsData'
 import chapterData from '../../data/chapterData'
+import IdCard from '../../components/IdCard/IdCard'
 
 
 import Newsroom from "../../components/Home/NewsRoom/Newsroom"
@@ -15,15 +16,16 @@ import './LandingPage.css'
 function LandingPage() {
   return (
     <div className='landingPage'>
-      <CustomTitle title="MEC CS"/>
-      <ImageSlider/>
+      <CustomTitle title="MEC Alumni"/>
+      <ImageSlider />z
       <div className='page__section'>
         <div className='section__column'>
             <HomeAbout />
-            <Newsroom img={newsData.img} title={newsData.title} desc={newsData.desc} header={newsData.header} date={newsData.date}/>
+            <Newsroom {...newsData[0]}/>
             <Events />
-            <Newsroom img={chapterData.img} title={chapterData.title} desc={chapterData.desc} header={chapterData.header}/>
+            <Newsroom {...chapterData[0]}/>
             <Gallery />
+            
         </div>
       </div>
     </div>

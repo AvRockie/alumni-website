@@ -70,7 +70,7 @@
     transition: .2s ease;
     border-radius: 50px;
     font-size: 1rem;
-    margin-right: 0.5em;
+    margin: 0.3rem
 }
 
 .button_login:hover {
@@ -89,11 +89,12 @@
     transition: .2s ease;
     border-radius: 50px;
     font-size: 1rem;
+    margin: 0.3rem
 }
 
 .button_reg:hover {
     color: #ffffff;
-    background-color: #0C2340;
+    background-color: var(--primary-color);
     transform: scale(1.1);
     border: 2px solid #ffffff;
 }

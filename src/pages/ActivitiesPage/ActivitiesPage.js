@@ -15,19 +15,25 @@ function ActivitiesPage() {
 
   return (
     <div className='activitiesPage'>
-      <CustomTitle title="MEC CS | Engage" />
+      <CustomTitle title="MEC Alumni | Engage" />
       <PageHeader image="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
       <div className='page__section'>
         <SideHeader title="Engage" />
         <div className='section__column'>
         <div className='engage_body'>
+        {
+              engageData.map((ed) => (
+                <Card
+                  key={ed.id}
+                  img={ed.img} 
+                  title={ed.title} 
+                  desc={ed.desc}
+                />
+            ))
+            }
+            </div>
+          
 
-<Card {...engageData}/>
-<Card {...engageData} />
-<Card {...engageData}/>
-<Card {...engageData}/>
-<Card {...engageData}/>
-</div>
 
 
        

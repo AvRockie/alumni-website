@@ -8,7 +8,10 @@ export { default as PlacementsPage } from './PlacementsPage/PlacementsPage'
 export { default as ResourcesPage } from './ResourcesPage/ResourcesPage'
 export { default as FacilitiesPage } from './FacilitiesPage/FacilitiesPage'
 export { default as ClubProfilePage } from './ClubProfilePage/ClubProfilePage'
-export { default as FacultyProfilePage } from './FacultyProfilePage/FacultyProfilePage'
+export { default as FacultyProfilePage } from './FacultyProfilePage/FacultyProfilePage' 
+
+
+export { default as FacultyPage } from './FacultyPage/FacultyPage' 
 
 
 export { default as AchievementsPage } from './Admin/AchievementsPage/AchievementsPage'

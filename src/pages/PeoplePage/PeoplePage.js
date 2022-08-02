@@ -12,19 +12,24 @@ function PeoplePage() {
 
    return (
     <div className='peoplePage'>
-      <CustomTitle title="MEC CS | People"/>
+      <CustomTitle title="MEC Alumni | Events"/>
       <PageHeader image="https://images.unsplash.com/photo-1528605105345-5344ea20e269?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
       <div className='page__section'>
-        <SideHeader title="Evemts"/>
+        <SideHeader title="Events"/>
         <div className='section__column'>
         <div className='news_body'>
 
-        <Card {...eventsData}/>
-        <Card {...eventsData} />
-        <Card  {...eventsData}/>
-        <Card  {...eventsData}/>
-        <Card  {...eventsData}/>
-        </div>
+        {
+              eventsData.map((ed) => (
+                <Card
+                  key={ed.id}
+                  img={ed.img} 
+                  title={ed.title} 
+                  desc={ed.desc}
+                />
+            ))
+            }
+            </div>
 
          
         </div>

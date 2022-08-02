@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+/* import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
 import FacultyCard from './FacultyCard'
@@ -48,4 +48,4 @@ function Faculty() {
     )
 }
 
-export default Faculty
+export default Faculty */
