@@ -1,6 +1,7 @@
 import React from 'react'
 import newsData from '../../data/newsData'
 import chapterData from '../../data/chapterData'
+import IdCard from '../../components/IdCard/IdCard'
 
 
 import Newsroom from "../../components/Home/NewsRoom/Newsroom"
@@ -24,6 +25,7 @@ function LandingPage() {
             <Events />
             <Newsroom {...chapterData[0]}/>
             <Gallery />
+            
         </div>
       </div>
     </div>

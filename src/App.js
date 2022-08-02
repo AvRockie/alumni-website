@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './App.css';
 import { Navbar, PageNotFound, Footer } from './components';
-import { AboutPage, LandingPage, PeoplePage, AcademicsPage, ActivitiesPage, ContactPage, PlacementsPage, ResourcesPage, AchievementsPage, ClubsPage, FacilitiesPage, FacilitiesAdmin, ClubProfilePage, FacultyProfilePage } from './pages';
+import { AboutPage, LandingPage, PeoplePage, AcademicsPage, ActivitiesPage, ContactPage, FacultyPage, PlacementsPage, ResourcesPage, AchievementsPage, ClubsPage, FacilitiesPage, FacilitiesAdmin, ClubProfilePage, FacultyProfilePage } from './pages';
+
 import Login from "./pages/Admin/Auth/Login/Login";
 import Profile from "./pages/Admin/Profile/Profile";
 import Register from "./pages/Admin/Auth/Register/Register";
@@ -41,6 +42,8 @@ function App() {
           <Route path="resources" element={<ResourcesPage />} />
           <Route path="clubs/:id" element={<ClubProfilePage />} />
           <Route path="faculty/:id" element={<FacultyProfilePage />} />
+          <Route path="search" element={<FacultyPage />}/>
+          
 
           <Route path="*" element={<PageNotFound />} />
 

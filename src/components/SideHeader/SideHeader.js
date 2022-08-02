@@ -5,19 +5,19 @@ import './SideHeader.css'
 
 function SideHeader({ title }) {
 
-  const [text, setText] = useState(false)
+  const [text, setText] = useState(true)
 
   const scrollPosition = useScrollPosition()
 
-  const showLogo = () => {
-    if (scrollPosition >= 260) {
-      setText(true)
-    } else {
-      setText(false)
-    }
-  }
+  // const showLogo = () => {
+  //   if (scrollPosition >= 260) {
+  //     setText(true)
+  //   } else {
+  //     setText(false)
+  //   }
+  // }
 
-  window.addEventListener('scroll', showLogo)
+  // window.addEventListener('scroll', showLogo)
 
   return (
     <div className='sideHeader'>   
