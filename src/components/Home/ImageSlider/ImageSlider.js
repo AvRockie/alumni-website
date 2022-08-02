@@ -1,6 +1,9 @@
 import React, { useRef } from 'react'
 import Slider from "react-slick";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import slideimage1 from '../../../assets/images/college.jpg'
+import slideimage2 from '../../../assets/images/class sv.png'
+
 
 import SingleSlide from './SingleSlide/SingleSlide';
 
@@ -12,13 +15,13 @@ const sliderData = [
         id: 1,
         title:"CSA",
         desc:"The Department of Computer Science & Engineering established in the year 1984, was the first CSE department introduced in Kerala. For the last three decades, the department has been imparting state-of-the-art education, training and research in the.",
-        image:"https://images.unsplash.com/photo-1615864691387-6e986695017a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+        image: slideimage1,
     },
     {
         id: 2,
         title:"CSA",
         desc:"The Department of Computer Science & Engineering established in the year 1984, was the first CSE department introduced in Kerala. For the last three decades, the department has been imparting state-of-the-art education, training and research in the.",
-        image:"https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+        image: slideimage2,
     },
     {
         id: 3,

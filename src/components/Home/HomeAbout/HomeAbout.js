@@ -3,6 +3,7 @@ import React from 'react'
 import  { useNavigate } from 'react-router-dom'
 
 import './HomeAbout.css'
+import image1 from'../../../assets/images/collegefrontview.jpeg'
 
 function HomeAbout() {
 
@@ -17,12 +18,13 @@ function HomeAbout() {
               <div className='hac__left'>
                 <h1 className='section__header'>About</h1> 
                 <p className='about__p'>
-                  The Department of Computer Science & Engineering established in the year 1984, was the first CSE department introduced in Kerala. For the last three decades, the department has been imparting state-of-the-art education, training and research in the field of computer science and allied areas and regularly producing efficient and outstanding professionals. The department offers B.Tech, M.Tech and Ph.D. programmes with excellent infrastructure and well qualified and experienced faculty. Department is a KTU approved research centre with seven research scholars including a scholar under AICTE NDF scheme....
-                </p>
+                Govt. Model Engineering College is celebrated for it's proud alumni members and their remarkable achievements. From it's amicable and inclusive environment that encourages bonding and exploration of various horizons to let individuals advance, the aura of excellence is bound to be within anyone who has stepped out of this corridors with handful of experiences and heartwarming memories.
+We hope to refine the MEC impact by serving as an instrument of  interaction between our admirable alumni.
+</p>
               </div>
               <div className='hac__right'>
                 <div className='homeAbout__img_outline' />
-                <img className='homeAbout__img' src='https://avatars.githubusercontent.com/u/43471295?v=4' alt='' />
+                <img className='homeAbout__img' src={image1} alt='' />
               </div>
             </div>
           </div>
