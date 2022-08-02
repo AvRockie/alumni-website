@@ -12,6 +12,7 @@ export { default as FacultyProfilePage } from './FacultyProfilePage/FacultyProfi
 
 
 export { default as FacultyPage } from './FacultyPage/FacultyPage' 
+export { default as ProfilePage } from './ProfilePage/ProfilePage' 
 
 
 export { default as AchievementsPage } from './Admin/AchievementsPage/AchievementsPage'
