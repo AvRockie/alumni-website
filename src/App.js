@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import { Navbar, PageNotFound, Footer } from './components';
 import { AboutPage, LandingPage, PeoplePage, AcademicsPage, ActivitiesPage, ContactPage, FacultyPage, PlacementsPage, ResourcesPage, AchievementsPage, ClubsPage, FacilitiesPage, FacilitiesAdmin, ClubProfilePage, FacultyProfilePage } from './pages';
-
+import ProfilePage from './pages/ProfilePage/ProfilePage.js'
 import Login from "./pages/Admin/Auth/Login/Login";
 import Profile from "./pages/Admin/Profile/Profile";
 import Register from "./pages/Admin/Auth/Register/Register";
@@ -43,7 +43,7 @@ function App() {
           <Route path="clubs/:id" element={<ClubProfilePage />} />
           <Route path="faculty/:id" element={<FacultyProfilePage />} />
           <Route path="search" element={<FacultyPage />}/>
-          
+          <Route path="profilepage" element={<ProfilePage/>}/>          
 
           <Route path="*" element={<PageNotFound />} />
 
