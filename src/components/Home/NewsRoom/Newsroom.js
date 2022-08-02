@@ -8,7 +8,12 @@ export default function NewsRoom(props){
             <div className="news_topic">
                 <img className="news_image" src={props.img} alt="img"></img>
                 <div className="news_content">
-                    <span className="news_title">{props.title}</span>
+               <div className="news_title">
+                <div className='title'>{props.title}</div>
+                
+                <div className='news_date'>{props.date}
+               </div> 
+                </div>
                     <p className="news_description">{props.desc}</p>
                 </div>
             </div>
